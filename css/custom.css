@@ -1,0 +1,65 @@
+a{
+ color:#198754;
+}
+
+a:hover{
+ color:#198754;
+}
+
+.button-bg{
+ background-color: #198754;
+ color:#fff;
+}
+
+.login-section{
+ width:380px;
+ background:#fff;
+ margin-top:10%;
+ border-radius:5px;
+}
+
+.centered{
+ text-align:center;
+}
+
+.profile-info{
+ margin:auto auto;
+ margin-top:40px;
+ margin-bottom:50px;
+ text-align:center;
+ width:60%;
+ position:relative;
+ background-color: #fff;
+ box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+ font-size:18px;
+ padding:15px;
+ border-radius:5px;
+}
+
+.profile-info span{
+  display:inline-block;
+  width:45%;
+  height:40px;
+}
+.profile-field{
+  font-weight:bold;
+  text-align:right;
+}
+.profile-value{
+ text-align:left;
+}
+
+.img-profile-main{
+ height:180px;
+ width:180px;
+}
+
+@media(max-width: 480px){
+ .profile-info{
+   width:90%;
+   padding:7px;
+   border:none;
+   font-size:16px;
+
+  }
+}
